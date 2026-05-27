@@ -1,6 +1,6 @@
 ## 🚀 Microservicos-Api10-gRPC-docker
 
-Exemplo de criação de Arquitetura distribuida CQRS com banco de dados Postgres.
+Exemplo de criação de Arquitetura CQRS, desenvolvida em .NET 10  com banco de dados Postgres.
 
 
 #### O que você vai encontrar neste projeto
