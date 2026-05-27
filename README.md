@@ -46,6 +46,10 @@ dotnet dev-certs https --clean
 dotnet dev-certs https --trust
 ```
 
+```bash 
+dotnet ef database drop --project InfraEstrutura.Producao.Server --startup-project InfraEstrutura.Producao.Server --force
+```
+
 - Para fechar o Container após execução
 ```bash 
 docker compose down              
