@@ -9,7 +9,7 @@ Exemplo de criação de API no padrão de Arquitetura CQRS, desenvolvida em .NET
 | **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 
-### 🔄 Executar a aplicação [PRODUÇÃO]
+### 🔄 Executar a aplicação [PRODUCAO]
 
 VSCode Terminal [1]
 ```bash
