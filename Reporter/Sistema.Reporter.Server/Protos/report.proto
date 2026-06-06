@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "Sistema.Reporter.Server.Protos";
+
+// Definição de mensagens para o serviço de Consolidação Diária
+message RelatorioRequest {
+  string data = 1; // Data para gerar o relatório 
+}
+
+message RelatorioResponse {
+  string data = 1; // Data do relatório consolidado
+  double saldo_total = 2; // Saldo total do dia (consolidado)
+  repeated Cliente relatorio_clientes = 3; // Lista dos lançamentos consolidados
+}
+
+message Cliente {
+	string id = 1;
+	string name = 2;
+	string typeofperson = 3;
+	string personalnumber = 4;
+	string address = 5;
+	double value = 6;
+	string registrationdate = 7;
+
+}
+
+// Serviço para geração de relatórios consolidados (Consultas)
+service RelatorioService {
+  // Obter o relatório diário consolidado de lançamentos
+  rpc ObterRelatorioConsolidado (RelatorioRequest) returns (RelatorioResponse);
+}

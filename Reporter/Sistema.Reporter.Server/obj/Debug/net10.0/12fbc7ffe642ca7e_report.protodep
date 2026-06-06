@@ -1,0 +1,3 @@
+obj\Debug\net10.0\Protos/Report.cs \
+obj\Debug\net10.0\Protos/ReportGrpc.cs: C:/Users/mgfaz/.nuget/packages/grpc.tools/2.80.0/build/native/include/google/protobuf/empty.proto\
+ Protos/report.proto

@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Reporter/">
+    <Project Path="InfraEstrutura.Reporter.DataModels/InfraEstrutura.Reporter.DataModels.csproj" />
+    <Project Path="Sistema.Reporter.API/Sistema.Reporter.API.csproj" />
+    <Project Path="Sistema.Reporter.Business/Sistema.Reporter.Business.csproj" />
+    <Project Path="Sistema.Reporter.Server/Sistema.Reporter.Server.csproj" />
+  </Folder>
+  <Folder Name="/src/Sdk/">
+    <Project Path="Sistema.Reporter.Sdk/Sistema.Reporter.Sdk.csproj" />
+  </Folder>
+  <Folder Name="/src/Testes/">
+    <Project Path="Sistema.Reporter.Testes/Sistema.Reporter.Testes.csproj" Id="fe6df607-4814-4178-a803-4c9613cd75c4" />
+  </Folder>
+</Solution>
