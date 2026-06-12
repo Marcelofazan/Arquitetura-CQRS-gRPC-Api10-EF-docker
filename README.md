@@ -12,7 +12,7 @@ Exemplo de criação de API Microserviços com Comunicação gRPC, Mensageria Ra
 #### Requisitos do Projeto
 - Necessário **Docker** instalado.
   
-## 📁 Produção
+## 📁 Producao
 #### 🔄 Executar a aplicação
 
 VSCode Terminal [1]
