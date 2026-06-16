@@ -1,5 +1,5 @@
 ## 🚀 CQRS-gRPC-Api10-EF-docker
-Exemplo de Arquitetura Padrão CQRS com Comunicação API gRPC, Mensageria RabbitMQ utilizando MediatR em C# ASP.NET Core 10 com banco de dados Postgres e MongoDB. 
+Exemplo de Arquitetura CQRS com Comunicação API gRPC, Mensageria RabbitMQ utilizando MediatR em C# ASP.NET Core 10 com banco de dados Postgres e MongoDB. 
 
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
