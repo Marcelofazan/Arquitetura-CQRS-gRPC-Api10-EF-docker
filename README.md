@@ -145,11 +145,12 @@ dotnet run --launch-profile https
 docker compose down         
 ```
 
-| Host | URL |
-|-----------|-----------|
-| **API** | https://localhost:7080/swagger/index.html |
-| **gRPC** | https://localhost:7237/ |
-| **RabbitMQ** | http://localhost:15672 |
+| Host | URL | Projeto | 
+|-----------|-----------|-----------|
+| **Server** | http://localhost:5184 | **Infraestrutura** |
+| **API** | https://localhost:7080/swagger/index.html | **API** |
+| **gRPC** | https://localhost:7237/ | **API** |
+| **RabbitMQ** | http://localhost:15672 | **API** |
 
 Exemplo chamada Relatório de consolidação, ele será gravado no banco de dados MongoDB
 ```bash 
