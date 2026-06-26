@@ -9,7 +9,7 @@ namespace Sistema.Reporter.Sdk.Extensions
         {
             services.AddGrpcClient<RelatorioService.RelatorioServiceClient>(client => {
 
-                client.Address = new Uri("https://localhost:7296");
+                client.Address = new Uri("https://localhost:5159");
             });
 
             services.AddScoped<IReportClient, ReportClient>();
