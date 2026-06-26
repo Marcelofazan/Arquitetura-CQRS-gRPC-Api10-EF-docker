@@ -119,7 +119,7 @@ docker-compose up --build
 ```
 
 VSCode Terminal [2]
-- Iniciar Server ( Raiz Projeto )
+- Iniciar Server
 ```bash 
 dotnet ef migrations add InitialCreate --project InfraEstrutura.Reporter.DataModels --startup-project Sistema.Reporter.Server
 dotnet ef database update --project InfraEstrutura.Reporter.DataModels --startup-project Sistema.Reporter.Server
@@ -131,7 +131,6 @@ VSCode Terminal [3]
 - Iniciar API
 ```bash 
 cd Sistema.Reporter.API
-
 dotnet run --launch-profile https
 ```
 
