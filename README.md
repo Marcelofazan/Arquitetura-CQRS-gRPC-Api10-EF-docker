@@ -141,7 +141,7 @@ docker compose down
 
 | Host | URL | Projeto | 
 |-----------|-----------|-----------|
-| **Server** | http://localhost:5184 | **Infraestrutura** |
+| **Server** | http://localhost:5159 | **Infraestrutura** |
 | **API** | https://localhost:7080/swagger/index.html | **API** |
 | **gRPC** | https://localhost:7237/ | **API** |
 | **RabbitMQ** | http://localhost:15672 | **API** |
